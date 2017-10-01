@@ -4,10 +4,9 @@ public class BinarySearch {
 
 	public static void main(String args[]) {
 		int list[] = { 17, 27, 65, 70, 81, 82, 88, 90, 92, 94 };
-		int num = 88;
 		
-		search(list, num);
-		
+		search(list, 88);
+		search(list, 15);
 	}
 
 	public static void search(int[] arr, int num) {
